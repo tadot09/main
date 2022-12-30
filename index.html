@@ -49,8 +49,14 @@
             }
         </style>
         <script>
-            function hey(){
+            function now(){
                 window.location.href = 'https://docs.google.com/spreadsheets/d/1HH5pkBHGALZeL3Ft-m5xQqwgNpK44B6peOgGLrV_Id4/edit?usp=sharing';
+            }
+            function  master(){
+                window.location.href = 'https://docs.google.com/spreadsheets/d/1mMjwup97L1L3_gZwngAfTj_JdxqOD5Wf12ZzjiOlXZU/edit?usp=sharing';
+            }
+            function  min(){
+                window.location.href = 'https://docs.google.com/spreadsheets/d/1pcESkeLy7cNWVSJwQlhggenBJ4Ogp23gsy61kDZ48_A/edit#gid=821795271';
             }
         </script>
         <link rel="stylesheet" type="text/css" href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/sparta-bucket2.css">
@@ -62,11 +68,17 @@
             <div>도서출판점자</div> 
             <p>test</p> <!-- /* 주석(ctrl+k+c) */ -->
         </div>
-        <div> <!-- /* row column */ -->
-            <button onclick="hey()">현재제작목록</button>
+        <p>
+            <div>구글시트 연결</div>
+            <button onclick="now()">전체제작목록</button>
+            <button onclick="master()">출력제작팀 공정관리</button>
+            <button onclick="min()">회의록</button> <!-- 회의록 minutes -->
+        </p>
+        <p>
+            <div>미활성</div>
             <button>신규제작</button>
             <button>납품 캘린더</button>
-        </div>
+        </p>
         <div class="row flex-row wrap">
             <div class="bucket img1 center">회의록</div>
             <div class="bucket img2 center done">test</div>
