@@ -1,1 +1,21 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function new(){
+            window.location.href = '링크입력';
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <button>제작 진행 목록</button>
+        <button onclick="new()">신규 제작 기록</button>
+        <button>납품 일정 달력</button> 
+    </div>   
+</body>
+</html>
