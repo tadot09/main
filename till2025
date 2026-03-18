@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>kbraille work</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"><!-- /* 주석(ctrl+k+c) 부트스트랩 링크? */ -->
+    <style>
+      .bg {
+      background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bg-grid.png");
+      }
+      .card {
+      margin- 20px;
+      }
+      .bgbx{
+      background-color: skyblue;
+      }
+    </style>
+  </head>
+  <body class="bg">
+    <div class="card-body bgbx">
+         <h5 class="card-title text-center">기록 모음</h5>
+         <p class="card-text text-center">...ㅇㅇㅇ...</p>
+     </div>
+     till 2025 
+     <div class="card w-50">
+        <div class="card-body">
+          <h5 class="card-title text-center">구글시트 링크 연결</h5>
+          <p class="card-text text-center">피땀눈물이 베어있는 구글시트...또로록...</p>
+          <div>
+            <a href="https://docs.google.com/spreadsheets/d/1wIKbtU6ZJrav6qnmhkB7PFciCYohgovIScghfAEhCdg/edit#gid=836350459" class="btn btn-primary">2023 공정시트</a>
+            <a href="https://docs.google.com/spreadsheets/d/1ziK-H6dq5a_29EIYimEPyJhAHa0iZ2kXbJwPKmoVsgc/edit#gid=1256526215" class="btn btn-primary">각팀공정계획</a>
+            <a href="https://docs.google.com/spreadsheets/d/1wIKbtU6ZJrav6qnmhkB7PFciCYohgovIScghfAEhCdg/edit#gid=93066370" class="btn btn-primary">납품예정달력 보기</a>
+          </div>
+        </div>
+      </div>
+    ㄱ
+      <div class="card w-50">
+        <div class="card-body">
+          <h5 class="card-title text-center">경영사업부</h5>
+          <p class="card-text text-center">경영1팀 전용 사용</p>
+          <div>
+            <a href="https://docs.google.com/spreadsheets/d/1hCTIvZM6G_4zwKKW7iFfMgQ6DMXsnoR3X--rznUAwuY/edit#gid=795548707" class="btn btn-primary">선급(매출매입)내역</a>
+            <a href="https://docs.google.com/spreadsheets/d/1EHfklGOR2VL7pZHTOBsoCXStWNLiRP3Ooi-ajCoWEtk/edit#gid=147168796" class="btn btn-primary">경영1팀 영업관리현황</a>
+            <a href="https://docs.google.com/spreadsheets/d/1NBntm54s8S0x9wnD21rmTX7oRO244-0IKuFeAn42Jq0/edit#gid=1768224359" class="btn btn-primary">명함제작(참고)</a>
+            <a href="https://docs.google.com/spreadsheets/d/12RPbcaZGWFOYYPmO6X9A4elewvIvfiWrb5qomG8T3c8/edit#gid=1480228614" class="btn btn-primary">현금영수증 기록</a>
+          </div>
+        </div>
+      </div>
+    ㄴ
+       <div class="card w-50">
+        <div class="card-body">
+          <h5 class="card-title text-center">성동자활</h5>
+          <p class="card-text text-center">요고요고 은근한 관리가 필요하네!</p>
+          <div>
+            <a href="https://docs.google.com/spreadsheets/d/1zE2wtuoGKY9J6bmOWkRM2e1Qw6dS92uvYJ_Y15Zyxcs/edit#gid=1271095300" class="btn btn-primary">성동자활 제작현황 구글시트</a>
+            <a href="https://docs.google.com/spreadsheets/d/1sXO7bdK1VLOqlVbShMuBFrWk4BwoqGs_kQuI41fICSE/edit#gid=1083981490" class="btn btn-primary">한점도 입력기증도서 구글시트</a>
+          </div>
+        </div>
+      </div>
+    ㄷ
+       <div class="card w-50">
+        <div class="card-body">
+          <h5 class="card-title text-center">찬미전용</h5>
+          <p class="card-text text-center">오늘 이런이런 제작에서 저런저런 내용이 있었다아~</p>
+          <div>
+            <a href="https://www.notion.so/s-b5e539ffa86c4b859e7bf353a9b296b9" class="btn btn-primary">노션 정리</a>
+            <a href="https://docs.google.com/spreadsheets/d/11CN7h6PXJFrRwdJKwGJOV0E3TvJKIeXJ0kS8R5QMMIg/edit#gid=0" class="btn btn-primary">제작 피드백 기록</a>
+          </div>
+        </div>
+      </div>
+    ㄹ
+      <div class="card w-75">
+          <div class="card-body">
+            <h5 class="card-title">양식제작 test</h5>
+            <p class="card-text">이런 양식을 작성하면 자동으로 값이 들어간다는 상상을 해보았다.</p>
+            <div>
+              <a href="#" class="btn btn-primary">0 가견적서</a>
+              <a href="https://github.com/tadot09/newwork/settings/pages" class="btn btn-primary">1 신규제작 [입력]</a>
+              <a href="#" class="btn btn-primary">2 제작내역 [수정]</a>
+              <a href="#" class="btn btn-primary">3 진행중인 제작 보기</a>
+              <a href="#" class="btn btn-primary">4 납품예정달력 보기</a>
+            </div>
+          </div>
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script><!-- /* 주석(ctrl+k+c) 자바 링크?*/ -->
+  </body>
+</html>
+
+
+
